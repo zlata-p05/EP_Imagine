@@ -19,3 +19,18 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#clicker-button {
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #93407e;
+  padding: 10px 20px;
+  border: none;
+}
