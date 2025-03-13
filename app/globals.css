@@ -19,18 +19,22 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+#beginning {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
 }
 
-#clicker-button {
-  font-size: 25px;
+#sendbutton {
+  font-size: 15px;
   color: #ffffff;
-  background-color: #93407e;
-  padding: 10px 20px;
+  align-items: center;
+  background-color: #848484;
+  padding: 5px 10px;
   border: none;
+}
+
+#boxarea {
+  font-size: 15px;
+  align-items: center;
 }
